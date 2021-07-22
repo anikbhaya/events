@@ -605,11 +605,35 @@ a{
 
 
   @media screen and (min-width: 320px)  and (max-width: 480px){
-    .countdown{
-        display: none!important;
+    .showcase{
+        justify-content: revert;
+    }
+    
+    .l-heading{
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    .cd-circle{
+       min-height: auto!important;
+       min-width: auto!important;
+       padding: .5rem!important;
+       width: 5rem;
+       height: 5rem;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+    }
+
+    .countdown h2{
+        font-size: 1rem;
+    }
+    .countdown p{
+        font-size: .7rem;
     }
     .l-heading{
-        font-size: 3rem;
+        font-size: 3.2rem;
+        text-align: center;
     }
 
     .showcase{
