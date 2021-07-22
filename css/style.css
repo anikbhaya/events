@@ -579,3 +579,46 @@ a{
     display: block;
     margin: auto;
 }
+
+
+/* Media Querys */
+@media screen and (min-width: 769px)  and (max-width: 1024px){
+    .men-overlay{
+        background-size: 40% auto;
+        background-position: right 20px;
+    }
+  }
+
+
+  @media screen and (min-width: 481px)  and (max-width: 768px){
+    .l-heading{
+        font-size: 3rem;
+    }
+
+    .join-icons{
+        margin-bottom: 3rem;
+    }
+    #why-join{
+        height: auto;
+    }
+  }
+
+
+  @media screen and (min-width: 320px)  and (max-width: 480px){
+    .countdown{
+        display: none!important;
+    }
+    .l-heading{
+        font-size: 3rem;
+    }
+
+    .showcase{
+        grid-template-columns: 5fr ;
+    }
+    .join-icons{
+        margin-bottom: 3rem;
+    }
+    #why-join{
+        height: auto;
+    }
+  }
