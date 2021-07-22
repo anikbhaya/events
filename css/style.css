@@ -503,8 +503,6 @@ a{
 
 /* SPONSORS */
 
-#sponsors{
-}
 
 #sponsors .container > div:first-child{
     display: grid;
@@ -614,22 +612,27 @@ a{
         margin-bottom: 3rem;
     }
 
+    .countdown{
+       justify-content: center;
+    }
+
     .cd-circle{
        min-height: auto!important;
        min-width: auto!important;
        padding: .5rem!important;
-       width: 5rem;
-       height: 5rem;
+       width: 4.5rem;
+       height: 4.5rem;
        display: flex;
        flex-direction: column;
        justify-content: center;
+       margin-right: auto;
     }
 
     .countdown h2{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     .countdown p{
-        font-size: .7rem;
+        font-size: .6rem;
     }
     .l-heading{
         font-size: 3.2rem;
